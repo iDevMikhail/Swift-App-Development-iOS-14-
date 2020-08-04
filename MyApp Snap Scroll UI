@@ -1,0 +1,48 @@
+//Rubeus myApp all rights reserved 2020
+//by yours truly iDevMikhail and some help from Axivl
+
+var yourMom
+var Sexing
+
+struct ContentView: View {
+    var body: some View {
+        ScrollView {
+            VStack {
+                ScrollView(.horizontal, showsIndicators: false) {
+                     HStack {
+                        Image("iavionics").padding(.trailing, 7.0).border(Color.red, width: 2)
+                    }
+                    HStack {
+                        Image("spacexvirtual").padding(.trailing, 7.0)
+                     }
+                }.frame(height: 100).padding(.top, 100)
+                ScrollView(.horizontal, showsIndicators: false) {
+                     HStack {
+                        Image("iavionics")
+                            .padding(.trailing, 7.0)
+                        Image("spacexvirtual").padding(.trailing, 7.0)
+                     }
+                }.frame(height: 100).padding(.top, 100)
+                ScrollView(.horizontal, showsIndicators: false) {
+                     HStack {
+                         Image("iavionics").padding(.trailing, 7.0)
+                         Image("spacexvirtual").padding(.trailing, 7.0)
+                     }
+                }.frame(height: 100).padding(.top, 100)
+            }
+        }
+    }
+}
+
+if sexing 
+
+struct SnapScroll: View {
+    var SnapScroll VStack 
+    ScrollText {
+        Hstack{
+            ScrollView(.ver)
+        }
+    }
+
+    
+}  //[STILL WORKING ON IT FROM THIS POINT}
