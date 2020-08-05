@@ -34,7 +34,7 @@ struct ContentView: View {
     }
 }
 
-if sexing 
+if Sexing 
 
 struct SnapScroll: View {
     var SnapScroll VStack 
